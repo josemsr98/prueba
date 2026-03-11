@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversario ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Feliz Aniversario, mi amor</h1>
+        <p>Un pequeño regalo para ti, con todo mi cariño.</p>
+    </header>
+    <section class="gallery">
+        <h2>Nuestras fotos</h2>
+        <form id="cloudinary-upload-form" style="margin: 2rem 0; text-align: center;">
+            <label for="cloudinary-file" style="font-size: 1.1rem; color: #ffb6b9;">Sube una foto desde tu móvil o PC:</label><br>
+            <input type="file" id="cloudinary-file" name="cloudinary-file" accept="image/*" multiple style="margin-top: 0.5rem;">
+            <br>
+            <button type="submit" style="margin-top: 1rem; padding: 0.5rem 1.2rem; background: #ffb6b9; color: #fff; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer;">Subir foto</button>
+            <div id="cloudinary-status" style="margin-top: 1rem; color: #888; font-size: 1rem;">Fotos subidas aparecerán abajo.</div>
+        </form>
+        <div style="text-align:center; margin-bottom:1rem;">
+            <button id="show-images-btn" style="padding:0.7rem 1.5rem; background:#ffb6b9; color:#fff; border:none; border-radius:12px; font-size:1.1rem; font-weight:500; cursor:pointer;">Mostrar imágenes</button>
+        </div>
+        <div class="photos" id="cloudinary-gallery" style="margin-top:2rem; display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;"></div>
+    </section>
+    <section class="spotify">
+        <h2>Nuestra lista de Spotify</h2>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5zlm2PsH17rJsWk1HREXGV" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </section>
+    <section class="extra">
+        <h2>Más cosas bonitas</h2>
+        <p>Aquí puedes agregar mensajes, recuerdos, videos, etc.</p>
+    </section>
+    <footer>
+        <p>Hecho con mucho amor 💖</p>
+    </footer>
+    <!-- Cloudinary SDK no es necesario para upload preset, solo main.js -->
+    <script src="main.js"></script>
+</body>
+</html>

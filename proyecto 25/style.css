@@ -1,0 +1,77 @@
+/* Botón Google Drive */
+.drive-btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: #fff;
+    color: #ffb6b9;
+    border: 2px solid #ffb6b9;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(255,182,185,0.08);
+    transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.drive-btn:hover {
+    background: #ffb6b9;
+    color: #fff;
+    border-color: #ffe6e6;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    background: #fff;
+    color: #fff;
+    color: #ffb6b9;
+    border-bottom: 2px solid #ffe6e6;
+}
+h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+.gallery {
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 16px;
+    border: 1.5px solid #ffe6e6;
+    background: #fff;
+}
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.photos img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(255,182,185,0.12);
+    border: 3px solid #ffe6e6;
+    background: #fff;
+}
+.spotify {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.extra {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #fff;
+    color: #fff;
+    font-size: 1.1rem;
+    color: #ffb6b9;
+    border-top: 2px solid #ffe6e6;
+}
